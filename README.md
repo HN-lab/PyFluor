@@ -14,12 +14,9 @@ Python functions from the two scripts in this module can be used for the followi
 
 | **Description** | **Script Name** | **Function Called** |
 | --- | --- | --- |
-| Generates heatmaps in the microplate format for visual representation of the maxima, minima, endpoint, and slope of the fluorescence kinetic traces
- | visualization.py | output\_plots(total\_rows, total\_columns, [\*fluor\_labels], sheet\_name, fluor\_file) |
-| Generates fluorescence kinetic traces within the microplate interactive grid format for visualization of the experiment
- | visualization.py | kinetic\_trace(total\_rows, total\_columns, [\*fluor\_labels], sheet\_name, fluor\_file) |
-| Generates two interactive plots in a matrix format based on the reaction setup. The first grid shows selected kinetic traces and the second is a maximum fluorescence value heatmap
- | fluor\_analysis.py | expt\_plots(total\_rows, total\_columns, [\*fluor\_labels], [\*expt\_tags], sheet\_name, design\_file, fluor\_file, answer\_tag) |
+| Generates heatmaps in the microplate format for visual representation of the maxima, minima, endpoint, and slope of the fluorescence kinetic traces | visualization.py | output\_plots(total\_rows, total\_columns, \[\*fluor\_labels\], sheet\_name, fluor\_file) |
+| Generates fluorescence kinetic traces within the microplate interactive grid format for visualization of the experiment | visualization.py | kinetic\_trace(total\_rows, total\_columns, [\*fluor\_labels], sheet\_name, fluor\_file) |
+| Generates two interactive plots in a matrix format based on the reaction setup. The first grid shows selected kinetic traces and the second is a maximum fluorescence value heatmap | fluor\_analysis.py | expt\_plots(total\_rows, total\_columns, [\*fluor\_labels], [\*expt\_tags], sheet\_name, design\_file, fluor\_file, answer\_tag) |
 
 One can directly call the desired functions on the terminal from their corresponding Python scripts. However, more information regarding the arguments has been included within the scripts, and these scripts have been designed to be modulated as per the user&#39;s requirements.
 
@@ -76,7 +73,7 @@ _\*Python list format:_
 
 _variable = [&quot;label1&quot;, &quot;label2&quot;, …. , &quot;labelN&quot;]_
 
-**Note:**
+## **Note:**
 
 If you wish to run the script on your PC or Desktop, make sure you have the latest version of Python installed on your system ([https://www.python.org/downloads/](https://www.python.org/downloads/)). The script has been developed using Python 3.8 (32-bit). Also, you might have to install openpyxl, pandas, XlsxWriter, seaborn, etc. in your environment or using the command line terminal. You can refer to the following links if you need help on installing packages/modules: [https://packaging.python.org/tutorials/installing-packages/](https://packaging.python.org/tutorials/installing-packages/); [https://docs.python.org/3/installing/index.html](https://docs.python.org/3/installing/index.html)
 
